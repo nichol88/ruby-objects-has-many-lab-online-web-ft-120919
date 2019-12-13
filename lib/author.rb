@@ -7,7 +7,7 @@ class Author
   end
 
   def posts
-    Post.posts.collect{ |post| post.author == }
+    Post.posts.collect{ |post| post.author == self}
   end
 
 
