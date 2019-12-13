@@ -10,4 +10,8 @@ class Author
     @posts
   end
 
+  def save
+    @posts << self
+  end
+
 end
