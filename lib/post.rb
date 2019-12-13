@@ -11,4 +11,8 @@ class Post
     @@posts << self
   end
 
+  def self.posts
+
+  end
+
 end
