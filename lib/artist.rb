@@ -22,7 +22,6 @@ class Artist
   end
 
   def self.song_count
-    Song.songs.each{|s| puts s.name}
     Song.songs.length
   end
 
