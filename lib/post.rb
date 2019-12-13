@@ -1,6 +1,6 @@
 class Post
   attr_accessor :title
-  @@posts
+  @@posts = []
   def initialize(title)
     @title = title
   end
