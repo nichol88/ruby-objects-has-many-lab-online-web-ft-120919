@@ -7,7 +7,7 @@ class Author
   end
 
   def posts
-    @posts
+    Post.posts.collect{ |post| post.author == }
   end
 
 
