@@ -12,7 +12,7 @@ class Post
   end
 
   def self.posts
-
+    @@posts
   end
 
 end
