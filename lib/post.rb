@@ -8,11 +8,11 @@ class Post
   end
 
   def save
-    @@posts << self
+    @@all << self
   end
 
   def self.posts
-    @@posts
+    @@all
   end
 
 end
